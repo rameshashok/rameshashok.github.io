@@ -6,12 +6,10 @@ export default function Hero() {
   const ref = useRef();
 
   useEffect(() => {
-    gsap.from(ref.current.children, {
-      y: 60,
-      opacity: 0,
-      stagger: 0.2,
-      duration: 1
-    });
+    gsap.fromTo(ref.current.children, 
+      { y: 30, opacity: 0 },
+      { y: 0, opacity: 1, stagger: 0.15, duration: 0.8, ease: "power2.out" }
+    );
   }, []);
 
   return (

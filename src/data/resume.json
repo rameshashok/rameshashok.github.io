@@ -1,0 +1,37 @@
+{
+  "name": "Ramesh Ashok",
+  "title": "Backend Engineer",
+  "summary": "Backend Engineer with 4+ years of experience building scalable, high-performance systems across airline and B2C domains.",
+  "email": "contactrameshashok@gmail.com",
+  "github": "https://github.com/rameshashok",
+  "linkedin": "https://linkedin.com/in/ramesh-ashok/",
+  "skills": [
+    "Java", "Spring Boot", "Node.js", "GraphQL",
+    "PostgreSQL", "MongoDB", "AWS", "Azure Functions",
+    "Docker", "CI/CD"
+  ],
+  "experience": [
+    {
+      "company": "Tata Consultancy Services",
+      "role": "Software Developer",
+      "period": "2025 – Present",
+      "points": [
+        "Reduced Azure Function cold starts by 35%",
+        "Improved API response time by 25% using caching",
+        "Implemented OpenTelemetry & circuit breakers"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Airline Booking Platform",
+      "desc": "High-traffic Node.js + GraphQL backend for airline booking flows.",
+      "tech": ["Node.js", "GraphQL", "Azure Functions"]
+    },
+    {
+      "name": "NDC Microservices Platform",
+      "desc": "Spring Boot microservices for airline NDC systems.",
+      "tech": ["Java", "Spring Boot", "PostgreSQL", "AWS"]
+    }
+  ]
+}

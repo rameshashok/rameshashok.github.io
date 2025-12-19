@@ -30,28 +30,28 @@ export default function Projects() {
   };
 
   return (
-    <section className="relative py-32 px-6 overflow-hidden">
+    <section className="relative py-16 sm:py-32 px-4 sm:px-6 overflow-hidden">
 
       
-      <div ref={titleRef} className="relative z-10 mb-20">
+      <div ref={titleRef} className="relative z-10 mb-12 sm:mb-20">
         <div className="text-center">
           <div className="inline-block relative">
-            <div className="absolute -inset-4 bg-accent/20 blur-xl rounded-full"></div>
-            <h2 className="relative text-7xl font-black text-white mb-4">
+            <div className="absolute -inset-2 sm:-inset-4 bg-accent/20 blur-xl rounded-full"></div>
+            <h2 className="relative text-4xl sm:text-7xl font-black text-white mb-4">
               PROJECTS
             </h2>
           </div>
-          <div className="flex justify-center items-center gap-4">
-            <div className="w-8 h-8 bg-accent rotate-45"></div>
-            <div className="w-16 h-1 bg-gradient-to-r from-accent to-white"></div>
-            <div className="w-4 h-4 bg-white rounded-full"></div>
-            <div className="w-16 h-1 bg-gradient-to-l from-accent to-white"></div>
-            <div className="w-8 h-8 bg-accent rotate-45"></div>
+          <div className="flex justify-center items-center gap-2 sm:gap-4">
+            <div className="w-4 h-4 sm:w-8 sm:h-8 bg-accent rotate-45"></div>
+            <div className="w-8 sm:w-16 h-0.5 sm:h-1 bg-gradient-to-r from-accent to-white"></div>
+            <div className="w-2 h-2 sm:w-4 sm:h-4 bg-white rounded-full"></div>
+            <div className="w-8 sm:w-16 h-0.5 sm:h-1 bg-gradient-to-l from-accent to-white"></div>
+            <div className="w-4 h-4 sm:w-8 sm:h-8 bg-accent rotate-45"></div>
           </div>
         </div>
       </div>
 
-      <div ref={cardsRef} className="relative z-10 max-w-6xl mx-auto grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
+      <div ref={cardsRef} className="relative z-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
         {resume.projects.map((p, i) => {
           const isExpanded = expandedProject === i;
           return (
@@ -68,14 +68,14 @@ export default function Projects() {
                 isExpanded ? 'opacity-100' : 'opacity-0 group-hover:opacity-70'
               }`}></div>
               
-              <div className="relative z-10 p-8">
+              <div className="relative z-10 p-6 sm:p-8">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className={`text-2xl font-bold transition-colors duration-300 ${
+                  <h3 className={`text-xl sm:text-2xl font-bold transition-colors duration-300 ${
                     isExpanded ? 'text-accent' : 'text-white group-hover:text-accent'
                   }`}>
                     {p.name}
                   </h3>
-                  <div className={`w-6 h-6 rounded-full border-2 border-accent/50 flex items-center justify-center transition-all duration-300 ${
+                  <div className={`w-6 h-6 rounded-full border-2 border-accent/50 flex items-center justify-center transition-all duration-300 flex-shrink-0 ml-2 ${
                     isExpanded ? 'rotate-45 bg-accent/20' : 'group-hover:border-accent'
                   }`}>
                     <svg className="w-3 h-3 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -84,14 +84,14 @@ export default function Projects() {
                   </div>
                 </div>
 
-                <p className={`leading-relaxed transition-colors mb-4 ${
+                <p className={`text-sm sm:text-base leading-relaxed transition-colors mb-4 ${
                   isExpanded ? 'text-slate-200' : 'text-slate-400 group-hover:text-slate-300'
                 }`}>
                   {p.desc}
                 </p>
 
                 <div className={`overflow-hidden transition-all duration-500 ${
-                  isExpanded ? 'max-h-32 opacity-100' : 'max-h-0 opacity-0'
+                  isExpanded ? 'max-h-40 sm:max-h-32 opacity-100' : 'max-h-0 opacity-0'
                 }`}>
                   <div 
                     ref={(el) => {

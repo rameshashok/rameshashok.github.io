@@ -23,36 +23,36 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 overflow-hidden">
-      <div ref={ref} className="relative z-20 backdrop-blur-md bg-black/5 rounded-3xl p-12 border border-accent/10 shadow-2xl shadow-accent/5">
-        <div className="mb-8">
-          <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-white via-accent to-white bg-clip-text text-transparent drop-shadow-2xl">
+    <section className="relative min-h-screen flex flex-col justify-center items-center text-center px-4 sm:px-6 overflow-hidden">
+      <div ref={ref} className="relative z-20 backdrop-blur-md bg-black/5 rounded-2xl sm:rounded-3xl p-6 sm:p-12 border border-accent/10 shadow-2xl shadow-accent/5 max-w-4xl mx-auto">
+        <div className="mb-6 sm:mb-8">
+          <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold bg-gradient-to-r from-white via-accent to-white bg-clip-text text-transparent drop-shadow-2xl leading-tight">
             {resume.name}
           </h1>
         </div>
         
-        <div className="mb-6">
-          <h2 className="text-2xl md:text-3xl text-accent font-light tracking-wide drop-shadow-lg">
+        <div className="mb-4 sm:mb-6">
+          <h2 className="text-lg sm:text-2xl md:text-3xl text-accent font-light tracking-wide drop-shadow-lg">
             {resume.title}
           </h2>
         </div>
         
-        <div className="mb-10">
-          <p className="max-w-2xl text-lg text-slate-200 leading-relaxed drop-shadow-md">
+        <div className="mb-8 sm:mb-10">
+          <p className="max-w-2xl text-sm sm:text-lg text-slate-200 leading-relaxed drop-shadow-md mx-auto">
             {resume.summary}
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center">
           <a
             href={resume.github}
-            className="group px-8 py-4 bg-accent/20 backdrop-blur-md border-2 border-accent rounded-full hover:bg-accent hover:text-black transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-accent/50 hover:rotate-2"
+            className="group px-6 sm:px-8 py-3 sm:py-4 bg-accent/20 backdrop-blur-md border-2 border-accent rounded-full hover:bg-accent hover:text-black transition-all duration-500 transform hover:scale-110 hover:shadow-2xl hover:shadow-accent/50 hover:rotate-2 text-sm sm:text-base"
           >
             <span className="font-semibold">View GitHub</span>
           </a>
           <a
             href={resume.linkedin}
-            className="group px-8 py-4 bg-white/10 backdrop-blur-md border-2 border-slate-400 rounded-full hover:border-accent hover:bg-accent/20 transition-all duration-500 transform hover:scale-110 hover:-rotate-2"
+            className="group px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md border-2 border-slate-400 rounded-full hover:border-accent hover:bg-accent/20 transition-all duration-500 transform hover:scale-110 hover:-rotate-2 text-sm sm:text-base"
           >
             <span className="font-semibold">Connect on LinkedIn</span>
           </a>

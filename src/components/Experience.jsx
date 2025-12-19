@@ -32,22 +32,22 @@ export default function Experience() {
   };
 
   return (
-    <section className="relative py-32 px-6 overflow-hidden">
+    <section className="relative py-16 sm:py-32 px-4 sm:px-6 overflow-hidden">
 
       
-      <div ref={titleRef} className="relative z-10 mb-20">
-        <div className="flex items-center justify-center mb-8">
-          <div className="w-32 h-1 bg-gradient-to-r from-transparent to-accent"></div>
-          <div className="mx-8 px-8 py-4 bg-accent/10 backdrop-blur-xl rounded-full border border-accent/30">
-            <h2 className="text-6xl font-black bg-gradient-to-r from-accent via-white to-accent bg-clip-text text-transparent">
+      <div ref={titleRef} className="relative z-10 mb-12 sm:mb-20">
+        <div className="flex flex-col sm:flex-row items-center justify-center mb-6 sm:mb-8">
+          <div className="w-16 sm:w-32 h-0.5 sm:h-1 bg-gradient-to-r from-transparent to-accent mb-4 sm:mb-0"></div>
+          <div className="mx-0 sm:mx-8 px-6 sm:px-8 py-3 sm:py-4 bg-accent/10 backdrop-blur-xl rounded-full border border-accent/30">
+            <h2 className="text-4xl sm:text-6xl font-black bg-gradient-to-r from-accent via-white to-accent bg-clip-text text-transparent">
               EXPERIENCE
             </h2>
           </div>
-          <div className="w-32 h-1 bg-gradient-to-l from-transparent to-accent"></div>
+          <div className="w-16 sm:w-32 h-0.5 sm:h-1 bg-gradient-to-l from-transparent to-accent mt-4 sm:mt-0"></div>
         </div>
       </div>
 
-      <div ref={cardsRef} className="relative z-10 max-w-5xl mx-auto space-y-16">
+      <div ref={cardsRef} className="relative z-10 max-w-5xl mx-auto space-y-8 sm:space-y-16">
         {resume.experience.map((exp, i) => {
           const isExpanded = expandedCard === i;
           const isEven = i % 2 === 0;
@@ -65,19 +65,19 @@ export default function Experience() {
                 isExpanded ? 'opacity-100' : 'opacity-0 group-hover:opacity-50'
               }`}></div>
               
-              <div className="relative z-10 p-8">
+              <div className="relative z-10 p-6 sm:p-8">
                 <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start">
                   <div className="flex-1">
-                    <h3 className={`text-2xl font-bold mb-2 transition-colors duration-300 ${
+                    <h3 className={`text-xl sm:text-2xl font-bold mb-2 transition-colors duration-300 ${
                       isExpanded ? 'text-accent' : 'text-white group-hover:text-accent'
                     }`}>
                       {exp.role}
                     </h3>
-                    <h4 className="text-xl text-white font-semibold mb-1">{exp.company}</h4>
-                    <p className="text-slate-400 text-lg">{exp.location}</p>
+                    <h4 className="text-lg sm:text-xl text-white font-semibold mb-1">{exp.company}</h4>
+                    <p className="text-slate-400 text-base sm:text-lg">{exp.location}</p>
                   </div>
                   <div className="flex items-center gap-4 mt-4 lg:mt-0">
-                    <span className={`inline-block px-4 py-2 rounded-full text-sm font-medium border transition-all duration-300 ${
+                    <span className={`inline-block px-3 sm:px-4 py-2 rounded-full text-xs sm:text-sm font-medium border transition-all duration-300 ${
                       isExpanded 
                         ? 'bg-accent/30 text-accent border-accent/50' 
                         : 'bg-accent/20 text-accent border-accent/30'
@@ -103,12 +103,12 @@ export default function Experience() {
                         setTimeout(() => animateDetails(el, true), 100);
                       }
                     }}
-                    className="grid gap-4 pt-4 border-t border-accent/20"
+                    className="grid gap-3 sm:gap-4 pt-4 border-t border-accent/20"
                   >
                     {exp.points.map((point, j) => (
                       <div key={j} className="flex items-start group/item opacity-0">
-                        <div className="flex-shrink-0 w-3 h-3 bg-gradient-to-r from-accent to-accent/70 rounded-full mt-1.5 mr-4 shadow-lg shadow-accent/30"></div>
-                        <p className="text-slate-300 leading-relaxed group-hover/item:text-white transition-colors">
+                        <div className="flex-shrink-0 w-2 h-2 sm:w-3 sm:h-3 bg-gradient-to-r from-accent to-accent/70 rounded-full mt-1.5 mr-3 sm:mr-4 shadow-lg shadow-accent/30"></div>
+                        <p className="text-slate-300 text-sm sm:text-base leading-relaxed group-hover/item:text-white transition-colors">
                           {point}
                         </p>
                       </div>

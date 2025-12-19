@@ -1,37 +1,104 @@
 {
   "name": "Ramesh Ashok",
-  "title": "Backend Engineer",
-  "summary": "Backend Engineer with 4+ years of experience building scalable, high-performance systems across airline and B2C domains.",
+  "title": "Java & Backend Engineer",
+  "summary": "Java & Backend Engineer with 4+ years of experience delivering scalable, high-performance systems across airline and B2C domains. Strong background in Java/Spring Boot microservices with hands-on experience in Node.js and GraphQL for serverless architectures on Azure Functions.",
   "email": "contactrameshashok@gmail.com",
+  "phone": "(+91) 8056040357",
+  "address": "Chennai, India 603103",
   "github": "https://github.com/rameshashok",
   "linkedin": "https://linkedin.com/in/ramesh-ashok/",
+  "portfolio": "Bold Profile",
   "skills": [
-    "Java", "Spring Boot", "Node.js", "GraphQL",
-    "PostgreSQL", "MongoDB", "AWS", "Azure Functions",
-    "Docker", "CI/CD"
+    "Java", "JavaScript", "TypeScript", "Spring Boot", "Hibernate", "Node.js", "Apollo", "GraphQL",
+    "PostgreSQL", "Oracle DB", "MongoDB", "AWS (S3, EC2)", "Azure Functions",
+    "Docker", "Jenkins", "GitHub Actions", "Git", "Agile", "TDD", "CI/CD"
   ],
   "experience": [
     {
       "company": "Tata Consultancy Services",
       "role": "Software Developer",
-      "period": "2025 – Present",
+      "period": "2025-01 – Current",
+      "location": "Chennai",
       "points": [
-        "Reduced Azure Function cold starts by 35%",
-        "Improved API response time by 25% using caching",
-        "Implemented OpenTelemetry & circuit breakers"
+        "Built and optimized a Node.js + GraphQL backend on Azure Functions for a B2C airline booking platform",
+        "Reduced cold-start latency by ~35% and deployment size by ~50% via Apollo Server → GraphQL Yoga migration, bundling, and DI removal",
+        "Improved API response times by ~25% using request-level and instance-level caching with optimized TTLs",
+        "Eliminated N+1 query issues, reducing redundant database calls by ~60% using GraphQL Dataloaders",
+        "Implemented circuit breakers and request timeouts, improving system resilience and preventing cascading failures",
+        "Integrated OpenTelemetry (OTel) for distributed tracing and metrics, paired with Azure Application Insights for end-to-end monitoring, latency analysis, and production debugging",
+        "Delivered and optimized high-traffic, business-critical APIs supporting search, pricing, and booking flows",
+        "Engineered microservices-based backend systems for the NDC platform for British Airways(IAG) using Spring Boot and PostgreSQL, ensuring efficient handling of large-scale airline booking data",
+        "Leveraged AWS services (EC2, S3) for deployment, achieving 99.9% system uptime and 25% faster performance",
+        "Enhanced database performance by optimizing queries and designing efficient schemas in PostgreSQL, reducing data latency by 15%",
+        "Integrated RESTful APIs with third-party platforms like Amadeus GDS for seamless service functionality",
+        "Implemented unit and integration testing, ensuring code reliability and maintainability"
+      ]
+    },
+    {
+      "company": "Bloomlync Technology",
+      "role": "Backend Developer",
+      "period": "2021-08 – 2022-01",
+      "location": "Chennai",
+      "points": [
+        "Modernized backend systems with Spring Boot and AWS Lambda, achieving a 20% reduction in system errors",
+        "Designed and implemented RESTful APIs integrated with PostgreSQL, improving data retrieval performance",
+        "Contributed to client projects, meeting 100% of delivery timelines and quality standards"
+      ]
+    },
+    {
+      "company": "Oracle Cerner",
+      "role": "Software Intern",
+      "period": "2020-10 – 2021-06",
+      "location": "Bengaluru",
+      "points": [
+        "Designed and developed a Blog Module for RCCREDIT.com using Spring Boot, React JS, and MongoDB, delivering a seamless user experience",
+        "Integrated APIs with database operations to optimize query performance and system reliability",
+        "Delivered detailed documentation and supported project milestones adhering to Agile practices"
+      ]
+    },
+    {
+      "company": "Amtex Systems",
+      "role": "IoT Intern",
+      "period": "2017-05 – 2017-07",
+      "location": "Chennai",
+      "points": [
+        "Worked on an IoT automation project for the American School, Chennai, improving communication efficiency by 30%",
+        "Used JavaScript and integrated data visualizations for real-time announcement systems"
       ]
     }
   ],
+  "education": [
+    {
+      "degree": "Master of Computer Applications",
+      "school": "SRM Institute of Science And Technology",
+      "location": "Chennai",
+      "year": "2021-06",
+      "gpa": "73.4%",
+      "details": "Attended a Machine Learning Bootcamp at NIT, Trichy, gaining hands-on experience with TensorFlow and Keras"
+    }
+  ],
+  "certifications": [
+    "Spring Boot – Udemy",
+    "AWS Solutions Architect – Associate (Self-study completion, exam scheduled)",
+    "PostgreSQL Database Fundamentals – Coursera",
+    "Core/Advanced Java – NIIT",
+    "Python – NIIT"
+  ],
   "projects": [
     {
-      "name": "Airline Booking Platform",
-      "desc": "High-traffic Node.js + GraphQL backend for airline booking flows.",
-      "tech": ["Node.js", "GraphQL", "Azure Functions"]
+      "name": "Jazeera Airways – B2C Platform",
+      "desc": "Built and optimized a Node.js + GraphQL backend on Azure Functions for a B2C airline booking platform with significant performance improvements.",
+      "tech": ["Node.js", "GraphQL", "Azure Functions", "Apollo Server", "PostgreSQL"]
     },
     {
-      "name": "NDC Microservices Platform",
-      "desc": "Spring Boot microservices for airline NDC systems.",
-      "tech": ["Java", "Spring Boot", "PostgreSQL", "AWS"]
+      "name": "British Airways – NDC Platform",
+      "desc": "Engineered microservices-based backend systems for the NDC platform using Spring Boot and PostgreSQL for large-scale airline booking data.",
+      "tech": ["Java", "Spring Boot", "PostgreSQL", "AWS", "Microservices"]
+    },
+    {
+      "name": "Participant Registration Application – TechUtsav",
+      "desc": "Developed a registration system for SRM College Tech Symposium using Angular and Firebase Cloudstore, deployed with custom GoDaddy domain.",
+      "tech": ["Angular", "Firebase", "JavaScript", "GoDaddy"]
     }
   ]
 }

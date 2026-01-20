@@ -1,0 +1,138 @@
+cv:
+  name: Ramesh Ashok
+  label: Senior Backend Engineer
+  location: Chennai, India
+  email: contactrameshashok@gmail.com
+  phone: tel:+91-8056040357
+  website: https://github.com/rameshashok
+  social_networks:
+    - network: LinkedIn
+      username: ramesh-ashok
+
+  sections:
+    summary:
+      - Accomplished Senior Backend Engineer with 4+ years of expertise architecting scalable, high-performance systems for enterprise airline and B2C platforms. Demonstrated excellence in Java/Spring Boot microservices and Node.js/GraphQL serverless architectures, consistently delivering measurable performance improvements and exceptional system reliability.
+
+    experience:
+      - company: Tata Consultancy Services
+        position: Senior Software Developer
+        location: Chennai, India
+        start_date: 2025-01
+        end_date: present
+        highlights:
+          - "Architected enterprise-grade Node.js + GraphQL backend on Azure Functions for B2C airline booking platform"
+          - "Achieved 35% reduction in cold-start latency and 50% deployment size optimization through strategic Apollo Server migration"
+          - "Improved API response times by 25% implementing intelligent multi-level caching with optimized TTL strategies"
+          - "Eliminated N+1 query bottlenecks, reducing database calls by 60% using advanced GraphQL Dataloaders"
+          - "Enhanced system resilience with circuit breakers and intelligent request timeouts, preventing cascading failures"
+          - "Implemented comprehensive observability with OpenTelemetry and Azure Application Insights for production excellence"
+          - "Delivered mission-critical APIs supporting high-traffic search, pricing, and booking workflows"
+
+      - company: Tata Consultancy Services
+        position: Software Engineer
+        location: Chennai, India
+        start_date: 2022-01
+        end_date: 2024-12
+        highlights:
+          - "Engineered microservices-based backend systems for the NDC platform for British Airways(IAG) using Spring Boot and PostgreSQL"
+          - "Leveraged AWS services (EC2, S3) for deployment, achieving 99.9% system uptime and 25% faster performance"
+          - "Enhanced database performance by optimizing queries and designing efficient schemas in PostgreSQL, reducing data latency by 15%"
+          - "Integrated RESTful APIs with third-party platforms like Amadeus GDS for seamless service functionality"
+          - "Implemented unit and integration testing, ensuring code reliability and maintainability"
+
+      - company: Bloomlync Technology
+        position: Backend Developer
+        location: Chennai, India
+        start_date: 2021-08
+        end_date: 2022-01
+        highlights:
+          - "Modernized legacy systems with Spring Boot and AWS Lambda, reducing system errors by 20%"
+          - "Designed high-performance RESTful APIs with PostgreSQL integration for superior data retrieval"
+          - "Maintained 100% delivery timeline adherence across all client projects with exceptional quality standards"
+
+      - company: Oracle Cerner
+        position: Software Engineering Intern
+        location: Bengaluru, India
+        start_date: 2020-10
+        end_date: 2021-06
+        highlights:
+          - "Developed comprehensive full-stack Blog Module for RCCREDIT.com using Spring Boot, React, and MongoDB"
+          - "Optimized database operations and API integrations for enhanced system reliability and performance"
+          - "Delivered detailed technical documentation following industry-standard Agile development practices"
+
+      - company: Amtex Systems
+        position: IoT Intern
+        location: Chennai, India
+        start_date: 2017-05
+        end_date: 2017-07
+        highlights:
+          - "Worked on IoT automation project for American School, Chennai, improving communication efficiency by 30%"
+          - "Used JavaScript and integrated data visualizations for real-time announcement systems"
+
+    education:
+      - institution: SRM Institute of Science And Technology
+        area: Artificial Intelligence and Data Science
+        degree: M.Tech
+        location: Chennai, India
+        start_date: 2026
+        end_date: present
+        highlights:
+          - "Currently pursuing advanced studies in AI and Data Science"
+          - "Specializing in machine learning algorithms and data analytics"
+          - "Research focus on deep learning and neural networks"
+
+      - institution: SRM Institute of Science And Technology
+        area: Computer Applications
+        degree: MCA
+        location: Chennai, India
+        start_date: 2018
+        end_date: 2021-06
+        gpa: 73.4%
+        highlights:
+          - "Completed intensive Machine Learning Bootcamp at NIT Trichy"
+          - "Gained hands-on expertise with TensorFlow and Keras frameworks"
+          - "Developed data analysis and visualization skills"
+          - "Strong foundation in software engineering principles"
+
+    projects:
+      - name: "Jazeera Airways B2C Platform"
+        date: 2025
+        highlights:
+          - "Built ultra-high-performance Node.js + GraphQL backend on Azure Functions with breakthrough optimization achievements"
+          - "Tech Stack: Node.js, GraphQL, Azure Functions, Apollo Server, PostgreSQL"
+
+      - name: "British Airways NDC Platform"
+        date: 2024
+        highlights:
+          - "Engineered enterprise-scale microservices architecture for massive airline booking data processing"
+          - "Tech Stack: Java, Spring Boot, PostgreSQL, AWS, Microservices Architecture"
+
+      - name: "TechUtsav Registration System"
+        date: 2021
+        highlights:
+          - "Developed scalable registration platform for SRM College Tech Symposium with custom domain deployment"
+          - "Tech Stack: Angular, Firebase Cloudstore, JavaScript, GoDaddy"
+
+    technologies:
+      - label: "Programming Languages"
+        details: Java, JavaScript, TypeScript, Python
+      - label: "Backend Frameworks"
+        details: Spring Boot, Hibernate, Node.js, Express.js
+      - label: "APIs & Integration"
+        details: GraphQL, Apollo Server, REST APIs, Microservices Architecture
+      - label: "Databases"
+        details: PostgreSQL, MongoDB, Oracle DB
+      - label: "Cloud & DevOps"
+        details: AWS (EC2, S3, Lambda), Azure Functions, Docker, Jenkins, GitHub Actions
+      - label: "Tools & Practices"
+        details: Git, Agile, TDD, CI/CD, OpenTelemetry, Application Insights
+
+    certifications:
+      - "Spring Boot Certification – Udemy"
+      - "AWS Solutions Architect Associate (In Progress)"
+      - "PostgreSQL Database Fundamentals – Coursera"
+      - "Advanced Java Programming – NIIT"
+      - "Python Development – NIIT"
+
+design:
+  theme: sb2nov

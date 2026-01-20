@@ -8,10 +8,10 @@
 
 
 # Summary
-Accomplished Senior Backend Engineer with 4+ years of expertise architecting scalable, high-performance systems for enterprise airline and B2C platforms. Demonstrated excellence in Java/Spring Boot microservices and Node.js/GraphQL serverless architectures, consistently delivering measurable performance improvements and exceptional system reliability.
+Accomplished Spring Boot Developer with 4+ years of expertise architecting scalable, high-performance microservices for enterprise airline and B2C platforms. Demonstrated excellence in Java/Spring Boot ecosystem with proven track record of delivering measurable performance improvements and exceptional system reliability.
 
 # Experience
-## **Senior Software Developer**
+## **Java Backend Developer**
 
 *Chennai, India*
 
@@ -19,23 +19,23 @@ Accomplished Senior Backend Engineer with 4+ years of expertise architecting sca
 
 *Tata Consultancy Services*
 
-- Architected enterprise-grade Node.js + GraphQL backend on Azure Functions for B2C airline booking platform
+- Architected enterprise-grade Spring Boot microservices with GraphQL integration for Jazeera Airways B2C airline booking platform
 
-- Achieved 35% reduction in cold-start latency and 50% deployment size optimization through strategic Apollo Server migration
+- Achieved 35% reduction in application startup time and 50% memory optimization through Spring Boot configuration tuning
 
-- Improved API response times by 25% implementing intelligent multi-level caching with optimized TTL strategies
+- Improved API response times by 25% implementing Spring Cache with Redis and optimized database connection pooling
 
-- Eliminated N+1 query bottlenecks, reducing database calls by 60% using advanced GraphQL Dataloaders
+- Eliminated N+1 query bottlenecks using Spring Data JPA optimization techniques, reducing database calls by 60%
 
-- Enhanced system resilience with circuit breakers and intelligent request timeouts, preventing cascading failures
+- Enhanced system resilience with Spring Boot Actuator health checks and circuit breaker patterns using Resilience4j
 
-- Implemented comprehensive observability with OpenTelemetry and Azure Application Insights for production excellence
+- Implemented comprehensive monitoring with Spring Boot Actuator metrics and Micrometer for production observability
 
-- Delivered mission-critical APIs supporting high-traffic search, pricing, and booking workflows
+- Delivered mission-critical Spring Boot REST APIs supporting high-traffic search, pricing, and booking workflows
 
 
 
-## **Software Engineer**
+## **Java Backend Developer**
 
 *Chennai, India*
 
@@ -43,7 +43,7 @@ Accomplished Senior Backend Engineer with 4+ years of expertise architecting sca
 
 *Tata Consultancy Services*
 
-- Engineered microservices-based backend systems for the NDC platform for British Airways(IAG) using Spring Boot and PostgreSQL
+- Engineered microservices-based backend systems for the NDC (New Distribution Capabilities) platform for British Airways (IAG) using Spring Boot and PostgreSQL
 
 - Leveraged AWS services (EC2, S3) for deployment, achieving 99.9% system uptime and 25% faster performance
 
@@ -137,9 +137,9 @@ Accomplished Senior Backend Engineer with 4+ years of expertise architecting sca
 
 *2025*
 
-- Built ultra-high-performance Node.js + GraphQL backend on Azure Functions with breakthrough optimization achievements
+- Built ultra-high-performance Spring Boot microservices with GraphQL integration for B2C airline booking platform
 
-- Tech Stack: Node.js, GraphQL, Azure Functions, Apollo Server, PostgreSQL
+- Tech Stack: Java, Spring Boot, GraphQL, PostgreSQL, Redis, AWS
 
 
 
@@ -164,17 +164,17 @@ Accomplished Senior Backend Engineer with 4+ years of expertise architecting sca
 
 
 # Technologies
-**Programming Languages:** Java, JavaScript, TypeScript, Python
+**Programming Languages:** Java, SQL
 
-**Backend Frameworks:** Spring Boot, Hibernate, Node.js, Express.js
+**Spring Framework:** Spring Boot, Spring MVC, Spring Data JPA, Spring Security, Spring Cache
 
-**APIs & Integration:** GraphQL, Apollo Server, REST APIs, Microservices Architecture
+**APIs & Integration:** REST APIs, Spring REST, Microservices Architecture, GraphQL with Spring Boot
 
-**Databases:** PostgreSQL, MongoDB, Oracle DB
+**Databases:** PostgreSQL, MongoDB, Oracle DB, Spring Data JPA, Hibernate
 
-**Cloud & DevOps:** AWS (EC2, S3, Lambda), Azure Functions, Docker, Jenkins, GitHub Actions
+**Cloud & DevOps:** AWS (EC2, S3, Lambda), Docker, Jenkins, GitHub Actions, Spring Boot Actuator
 
-**Tools & Practices:** Git, Agile, TDD, CI/CD, OpenTelemetry, Application Insights
+**Tools & Practices:** Git, Agile, TDD, CI/CD, Maven, Gradle, Spring Boot Testing
 
 # Certifications
 Spring Boot Certification – Udemy
